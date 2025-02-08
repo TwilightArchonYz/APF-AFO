@@ -20,3 +20,38 @@ The code for the algorithm and encoding-decoding framework has been open-sourced
 (2) 开发了一种具有基于学习的参数控制的多种群机制。 
 (3) 提出了基于优先级的编码方法，使得连续元启发式算法能够解决离散问题，而无需进行重大修改。
 
+
+
+
+
+The combinatorial optimization problem test set includes four types of problems: the Traveling Salesman Problem (TSP), the Vehicle Routing Problem (VRP), the Facility Layout Problem (ARP), and the Flexible Job Shop Scheduling Problem (FJSP). In total, there are 32 problems, which are categorized as follows:
+
+Problems 1-4 are TSP problems, using encoding-decoding method 1;
+Problems 5-8 are TSP problems, using encoding-decoding method 2;
+Problems 9-12 are VRP problems, using encoding-decoding method 1;
+Problems 13-16 are VRP problems, using encoding-decoding method 2;
+Problems 17-20 are ARP problems, using encoding-decoding method 1;
+Problems 21-24 are ARP problems, using encoding-decoding method 2;
+Problems 25-28 are FJSP problems, using encoding-decoding method 1;
+Problems 29-32 are FJSP problems, using encoding-decoding method 2.
+In this context, the encoding-decoding method with heuristic factors is referred to as method 1, while the one without heuristic factors is referred to as method 2.
+
+组合优化问题测试集包含四类问题，分别是旅行商问题（TSP）、车辆路径问题（VRP）、设施布局问题（ARP）以及柔性作业车间调度问题（FJSP）。共包括32个问题，其中：
+
+问题1-4为TSP问题，使用编解码方式1；
+问题5-8为TSP问题，使用编解码方式2；
+问题9-12为VRP问题，使用编解码方式1；
+问题13-16为VRP问题，使用编解码方式2；
+问题17-20为ARP问题，使用编解码方式1；
+问题21-24为ARP问题，使用编解码方式2；
+问题25-28为FJSP问题，使用编解码方式1；
+问题29-32为FJSP问题，使用编解码方式2。
+其中，引入启发因子的编解码方式为编解码方式1，没有引入启发因子的编解码方式为编解码方式2。
+
+
+
+
+
+
+
+
